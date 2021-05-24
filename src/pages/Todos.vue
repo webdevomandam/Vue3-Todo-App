@@ -10,8 +10,8 @@
 
 <script>
 import { computed, reactive } from 'vue'
-import { capitalize } from './../utils'
-import BaseTable from './../components/BaseTable.vue'
+import { capitalize } from '@/utils'
+import BaseTable from '@/components/BaseTable.vue'
 export default {
     name: 'todos',
     components: {
